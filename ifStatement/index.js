@@ -1,26 +1,26 @@
 // IF STATEMENT
 
-/* let age = 2;
+let age1 = 2;
 
-if (age >= 18) {
+if (age1 >= 18) {
   console.log("You are old enough to enter the club.");
 } else {
   console.log("You are not old enough to enter the club.");
 }
- */
-/* 
+
+// another example
 let isStudent = false;
 if (isStudent) {
   console.log("You are a student");
 } else {
-  console.log("You are NOT a studen!t");
-} */
+  console.log("You are NOT a student");
+}
 
 // NESTED IF STATEMENT
 
-/* let age = 2;
+let age2 = 2;
 let hasLicense = false;
-if (age >= 18) {
+if (age2 >= 18) {
   console.log("You are old enough to drive.");
   if (hasLicense) {
     console.log("You have a valid driver's license.");
@@ -29,19 +29,22 @@ if (age >= 18) {
   }
 } else {
   console.log("You are not old enough to drive.");
-} */
+}
 
-/* let age = 15;
-if (age >= 18) {
+// multiple conditions using else if
+let age3 = 15;
+if (age3 >= 18) {
   console.log("You are old enough to vote.");
-} else if (age >= 16) {
+} else if (age3 >= 16) {
   console.log("You can vote in some countries.");
-} else if (age >= 14) {
+} else if (age3 >= 14) {
   console.log("You can vote in some states.");
 } else {
   console.log("You are not old enough to vote.");
 }
- */
+
+// multiple conditions using else if
+// Example with user input
 
 const myText = document.getElementById("myText");
 const mySubmit = document.getElementById("mySubmit");
